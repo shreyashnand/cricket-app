@@ -1,0 +1,23 @@
+.Mode {
+    position: relative;
+    background-color: rgb(202, 223, 240);
+    height: 470px;
+    width: 1200px;
+    right: 1000px;
+    top: -120px;
+    border-radius: 15px;
+}
+
+.playerData {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.playerImg {
+    width: 100px;
+    height: 110px;
+    display: flex;
+    border-radius: 5px;
+}

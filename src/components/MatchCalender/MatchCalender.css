@@ -14,3 +14,9 @@
     border-radius: 10px;
     margin: 0.5rem;
 }
+
+.Table {
+    position: absolute;
+    top: 5px;
+    left: 670px;
+}

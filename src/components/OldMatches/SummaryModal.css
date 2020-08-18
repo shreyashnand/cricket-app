@@ -1,0 +1,17 @@
+.SummMode {
+    position: relative;
+    background-color: rgb(202, 223, 240);
+    height: 280px;
+    width: 1000px;
+    right: 950px;
+    top: -150px;
+    border-radius: 15px;
+}
+
+.sumdetail {
+    margin: 2rem;
+}
+
+.head {
+    padding: 0.3rem;
+}

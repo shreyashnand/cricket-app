@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
-import Modal from '../NewMatches/Modal';
+import SummaryModal from '../OldMatches/SummaryModal';
 
-class View extends Component {
+
+class Summary extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -21,7 +22,7 @@ class View extends Component {
         return (
             <div>
             <button onClick={this.handleClick}>
-                {this.state.isView ? <b>Team details</b> : <div className="View"><Modal /></div>   }
+                {this.state.isView ? <b>Match Summary</b> : <div className="Sum"><SummaryModal /></div>   }
             </button>
                 
             </div>
@@ -29,5 +30,5 @@ class View extends Component {
     }
 }
 
-export default View
+export default Summary
 

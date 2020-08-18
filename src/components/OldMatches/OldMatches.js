@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './OldMatches.css';
 import {matches} from '../../components/olddata';
+import Summary from '../OldMatches/Summary'
 
 class OldMatches extends Component {
     
@@ -16,7 +17,14 @@ class OldMatches extends Component {
                 <div className="Winner"><b>Match Winner: </b>{match.winner_team}</div>
                 </div>
             ))}
-                
+            
+            <div className="summary">
+            <h1 className="Summplay"> <Summary /> </h1> 
+            <h1 className="Summplay"> <Summary /> </h1> 
+            <h1 className="Summplay"> <Summary /> </h1> 
+            <h1 className="Summplay"> <Summary /> </h1> 
+            
+            </div>
             </div>
         )
     }

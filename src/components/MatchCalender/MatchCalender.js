@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './MatchCalender.css';
 import {calender} from '../../components/match';
+import Table from '../MatchCalender/Table';
 
 class MatchCalender extends Component {
     render() {
@@ -12,10 +13,15 @@ class MatchCalender extends Component {
                 <div>{cal.team_1} VS {cal.team_2}</div>
                 <div>{cal.venue}</div>
                  
+
                 </div>
                
 
             ))}
+
+            <div className="Table"> 
+            <Table />
+            </div>
             </div>
         )
     }

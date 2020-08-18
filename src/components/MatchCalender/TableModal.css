@@ -1,0 +1,23 @@
+.TableDat {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.team {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.btn {
+    position: relative;
+    top: 3rem;
+}
+
+.amt {
+    padding: 0.1rem;
+}
+
+.teamop {
+    margin-top: 1rem;
+}

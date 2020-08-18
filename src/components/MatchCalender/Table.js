@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
-import Modal from '../NewMatches/Modal';
+import TableModal from '../MatchCalender/TableModal';
 
-class View extends Component {
+
+class Table extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -21,7 +22,7 @@ class View extends Component {
         return (
             <div>
             <button onClick={this.handleClick}>
-                {this.state.isView ? <b>Team details</b> : <div className="View"><Modal /></div>   }
+                {this.state.isView ? <b>Tournament Table</b> : <div ><TableModal /></div>   }
             </button>
                 
             </div>
@@ -29,5 +30,5 @@ class View extends Component {
     }
 }
 
-export default View
+export default Table
 

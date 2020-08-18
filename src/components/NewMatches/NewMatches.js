@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './NewMatches.css';
 import {matches} from '../../components/data';
 import View from '../NewMatches/View';
+import Player from '../NewMatches/Player'
 
 
 class NewMatches extends Component {
@@ -10,6 +11,7 @@ class NewMatches extends Component {
     render() {
          
         return (
+            <div>
             <div className="Match">
             {matches.map(match => (
                 <div key={match.unique_id} className="NewMatch">
@@ -21,6 +23,14 @@ class NewMatches extends Component {
                 </div>
             ))}   
            
+            </div>
+            <div className="Players">
+            <h1 className="hplay"><Player /> </h1>
+            <h1 className="hplay"><Player /> </h1>
+            <h1 className="hplay"><Player /> </h1>
+            <h1 className="hplay"><Player /> </h1>
+            
+            </div>
             </div>
         )
     }

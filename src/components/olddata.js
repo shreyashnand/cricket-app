@@ -3,14 +3,14 @@ export const matches = [
       unique_id: 1214574,
       date: "2020-08-16T00:00:00.000Z",
       dateTimeGMT: "2020-08-16T04:30:00.000Z",
-      team_1: "Sri Lanka",
-      team_2: "Australia lion",
+      team_1: "India",
+      team_2: "Pakistan",
       team_1_Players: "asb, asodn, ffrf, frwr, wewr, asd, asd, reeegf, ewsfvdx",
       team_2_Players: "yuisb, asodn, ffrf, frwr, wewr, asd, asd, reeegf, ewsfvdx",
       type: "ODI",
-      toss_winner_team: "Sri Lanka",
+      toss_winner_team: "India",
       squad: false,
-      winner_team: "Australia lion",
+      winner_team: "India",
       matchStarted: true
     },
     {

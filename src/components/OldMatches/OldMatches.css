@@ -3,3 +3,13 @@
     right: 200px;
     top: 150px;
 }
+
+.summary {
+    position: absolute;
+    top: -30px;
+    left: 670px;
+}
+
+.Summplay {
+    padding: 1rem;
+}
