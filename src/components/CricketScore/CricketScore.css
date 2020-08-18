@@ -1,0 +1,22 @@
+.cricketscore {
+    position: relative;
+    right: 350px;
+    top: 100px;
+}
+
+.Score {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    /* grid-row-gap: 1rem; */
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid rgb(180, 178, 178);
+    box-shadow: 5px 5px rgb(197, 197, 231);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bat {
+    color: red;
+}

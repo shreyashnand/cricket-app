@@ -1,0 +1,57 @@
+.Match {
+    position: relative;
+    right: 350px;
+    top: 50px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 1rem;
+}
+
+.Date {
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Teams {
+    background-color: rgb(161, 161, 212);
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Toss {
+    background-color: gray;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Winner {
+    background-color: rgb(154, 199, 154);
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.detail {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 120px;
+}
+
+button {
+    width: 12rem;
+    height: 1.7rem;
+    margin: 0.1rem;
+    cursor: pointer;
+    border: 0.1px solid rgb(180, 178, 178);
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(187, 184, 184);
+}

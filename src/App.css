@@ -1,0 +1,47 @@
+body {
+    background-color: #cdd4e2;
+}
+
+.NavLink {
+    padding: 1.5rem;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.NavLink:hover {
+    cursor: pointer;
+    /* background-color: rgb(223, 237, 240); */
+    text-shadow: #707070;
+}
+
+.active-link {
+    color: #3d3d3d;
+    border-bottom: 2px solid #375ba9;
+    transition: all ease-out;
+}
+
+.NavBar {
+    position: relative;
+    float: right;
+    top: 50px;
+}
+
+.cri {
+    position: relative;
+    right: 750px;
+    top: 40px;
+    font-size: 2.5rem;
+}
+
+.Image {
+    position: relative;
+    top: 220px;
+    left: 80px;
+    height: 350px;
+    width: 280px;
+    border-radius: 100px;
+}

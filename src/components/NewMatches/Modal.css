@@ -1,0 +1,20 @@
+.Modal {
+    position: relative;
+    background-color: rgb(197, 193, 193);
+    height: 400px;
+    width: 700px;
+    right: 300px;
+    top: -100px;
+    border-radius: 15px;
+}
+
+.Display {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 18px;
+}
+
+p {
+    margin-top: 150px;
+    font-size: 20px;
+}
